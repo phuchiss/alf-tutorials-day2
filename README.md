@@ -1,5 +1,16 @@
 # Creating a Folder Listing Java-backed web script
 
+### Expected result
+
+![Alt](/result.png "Expected result")
+
+### Create project
+
+1. ```mvn archetype:generate -Dfilter=org.alfresco:```
+2. เลือก sdk version 3.0.1
+3. groupId : com.tutorial
+4. artifactId : webscripts-tutorial-day2
+
 ### Creating the scripted components of a Folder Listing web script
 
 1. สร้างไฟล์ list.get.desc.xml ที่ webscripts-tutorial-day2-platform-jar/src/main/resources/alfresco/extension/templates/webscripts/alfresco/tutorials/
